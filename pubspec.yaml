@@ -38,6 +38,8 @@ dependencies:
   http: ^1.1.0
   firebase_core: ^2.23.0
   google_fonts: ^6.1.0
+#  calender
+  table_calendar: ^3.0.9
 
 dev_dependencies:
   flutter_test:

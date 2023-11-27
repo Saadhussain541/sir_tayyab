@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 const primary = Color(0xff000000);
 const secondary = Color(0xffffffff);
 
+
 const gradientButton = LinearGradient(
   begin: Alignment.centerLeft,
   end: Alignment.centerRight,
@@ -19,3 +20,7 @@ const gradientGrey = LinearGradient(
   end: Alignment.centerRight,
   colors: [Colors.grey,Colors.grey],
 );
+
+// Font Size
+const double heading_size=18;
+const double extra_heading_size=22;
