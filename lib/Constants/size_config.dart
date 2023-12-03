@@ -30,10 +30,11 @@ double getProportionateScreenWidth(double inputWidth) {
   // 375 is the layout width that designer use
   return (inputWidth / 375.0) * screenWidth;
 }
-TextStyle headingStyle()
+TextStyle headingStyle({Color color1=secondary,FontWeight fontWeight1=FontWeight.w300})
 {
   return TextStyle(
-    color: secondary,
+  fontWeight: fontWeight1,
+    color: color1,
     fontSize: heading_size
   );
 }

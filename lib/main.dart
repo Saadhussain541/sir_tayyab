@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:metro_pat/Constants/size_config.dart';
+import 'package:metro_pat/Views/Saad/job_discription.dart';
+import 'package:metro_pat/Views/Saad/job_module.dart';
 import 'package:metro_pat/Views/Saad/notification_module.dart';
 import 'package:metro_pat/Views/Saad/service_history.dart';
+import 'package:metro_pat/Views/Saad/setting_module.dart';
 
 import 'Views/Saad/calender_module.dart';
 import 'Views/Screens/mobile_screen.dart';
